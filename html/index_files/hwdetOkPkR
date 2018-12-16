@@ -1,0 +1,39 @@
+if (typeof window.jivo_magic_var == "undefined"){var jivo_magic_var = 123321;
+window.jivo_config={"widget_id":"hwdetOkPkR","site_id":303922,"widget_color":"#383d45","widget_font_color":"light","widget_padding":"100","widget_height":"33","widget_orientation":"bottom","font_size":"14","font_family":"Arial","font_type":"normal","locale":"ru_RU","show_rate_form":1,"hide_ad":1,"secure":0,"contacts_ask":0,"style_string":"jivo_shadow jivo_rounded_corners jivo_gradient jivo_3d_effect jivo_border jivo_3px_border","chat_mode":1?"online":"offline","options":1016,"hide_offline":1,"vox_login":"jivosite@chat.jivosite.voximplant.com","avatar_url":"\/\/s3-eu-west-1.amazonaws.com\/jivo-userdata","online_widget_label":"\u0415\u0441\u0442\u044c \u0432\u043e\u043f\u0440\u043e\u0441\u044b? \u041c\u044b - \u043e\u043d\u043b\u0430\u0439\u043d!","offline_widget_label":"\u041e\u0442\u043f\u0440\u0430\u0432\u044c\u0442\u0435 \u043d\u0430\u043c \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435","offline_form_text":"\u041e\u0441\u0442\u0430\u0432\u044c\u0442\u0435 \u0441\u0432\u043e\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0432 \u044d\u0442\u043e\u0439 \u0444\u043e\u0440\u043c\u0435, \u0438 \u043c\u044b \u043f\u043e\u043b\u0443\u0447\u0438\u043c \u0435\u0433\u043e \u043d\u0430 e-mail \u0438 \u043e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u043e \u043e\u0442\u0432\u0435\u0442\u0438\u043c!","base_url":"\/\/code.jivosite.com","static_host":"cdn.jivosite.com","comet":{"host":"node25.jivosite.com"},"rules":[{"name":"\u0410\u043a\u0442\u0438\u0432\u043d\u043e\u0435 \u043f\u0440\u0438\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u0435 \u0432 \u0434\u0438\u0430\u043b\u043e\u0433","enabled":true,"type":"all","conditions":[{"condition":"online","value":true},{"condition":"time_on_page","comparator":"greater","value":"9000"},{"condition":"time_on_site","comparator":"greater","value":"9000"},{"condition":"time_after_close","comparator":"greater","value":"9999"},{"condition":"time_after_invitation","comparator":"greater","value":"9999"}],"commands":[{"command":"proactive","params":{"message":"\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435! \u0415\u0441\u043b\u0438 \u0412\u0430\u043c \u043f\u043e\u043d\u0430\u0434\u043e\u0431\u0438\u0442\u0441\u044f \u043f\u043e\u043c\u043e\u0449\u044c \u0438\u043b\u0438 \u0443 \u0412\u0430\u0441 \u0432\u043e\u0437\u043d\u0438\u043a\u043d\u0443\u0442 \u0432\u043e\u043f\u0440\u043e\u0441\u044b, \u0441 \u0440\u0430\u0434\u043e\u0441\u0442\u044c\u044e \u043f\u043e\u043c\u043e\u0433\u0443 \u0412\u0430\u043c."}}]},{"name":"\u0410\u043a\u0442\u0438\u0432\u043d\u043e\u0435 \u043f\u0440\u0438\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u0435 \u0432 \u0434\u0438\u0430\u043b\u043e\u0433 \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 \u0442\u0440\u0435\u043d\u0438\u043d\u0433\u043e\u0432","enabled":true,"type":"all","conditions":[{"condition":"online","value":true},{"condition":"page_url","comparator":"equal","value":"http:\/\/geniusmarketing.me\/trainings\/"},{"condition":"time_on_page","comparator":"greater","value":"10"},{"condition":"time_after_close","comparator":"greater","value":300},{"condition":"time_after_invitation","comparator":"greater","value":"300"}],"commands":[{"command":"proactive","params":{"message":"\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435!  \u042f \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440 \u043f\u043e \u0440\u0430\u0431\u043e\u0442\u0435 \u0441 \u043a\u043b\u0438\u0435\u043d\u0442\u0430\u043c\u0438. \n\n\u0412\u0430\u0441 \u0438\u043d\u0442\u0435\u0440\u0435\u0441\u0443\u044e\u0442 \u043d\u0430\u0448\u0438 \u0436\u0438\u0432\u044b\u0435 \u0441\u043e\u0431\u044b\u0442\u0438\u044f \u0438\u043b\u0438 \u043e\u0431\u0443\u0447\u0430\u044e\u0449\u0438\u0435 \u0442\u0440\u0435\u043d\u0438\u043d\u0433\u0438?"}}]}],"typing_insight":1,"contacts_settings":{"name":{"show":true,"required":false},"email":{"show":false,"required":false},"phone":{"show":false,"required":false}}};
+(function(){
+var RETRIES_LIMIT = 3, retriesCount = 0, timerId;
+var isMobile = /iPhone|iPad|iPod|Android|Windows Phone/i.test(navigator.userAgent);
+var timeoutTime = isMobile? 8000 : 6000;
+var onerrorCb = function(type) {
+    clearTimeout(timerId);
+    if (++retriesCount >= RETRIES_LIMIT) {return;}
+    try {
+        localStorage.setItem("jv_store_cdn_resolve_time", (new Date().getTime() + 120000).toString());
+        localStorage.setItem("jv_store_cdn_unavailable", type);
+    } catch (e) {}
+    jivoLoad();
+};
+var getUrl = function() {
+    var timestamp = null;
+    try {
+        timestamp = parseInt(localStorage.getItem("jv_store_cdn_resolve_time"), 10);
+    } catch (e) {}
+    var cdnUnavailable = timestamp && timestamp >= (new Date()).getTime();
+    return (cdnUnavailable? window.jivo_config.base_url : "//cdn.jivosite.com") + "/js/iframe_loader.js?rand=1472829677";
+};
+function jivoLoad() {
+    var sc = document.getElementsByTagName("script");
+    var iA = sc[0];
+    var se = document.createElement("script");
+    se.type = "text/javascript"; se.async = true; se.charset="UTF-8";
+    se.onerror = function(){ onerrorCb("error")};
+    iA.parentNode.insertBefore(se, iA).src = getUrl();
+    timerId = setTimeout(function () {
+        if (typeof window.jivo_init === "undefined") {
+            iA.parentNode.removeChild(se);
+            onerrorCb("timeout");
+        }
+    }, timeoutTime);
+}
+jivoLoad();
+})();};
